@@ -1,4 +1,4 @@
-2 CentOS7这个版本的防火墙默认使用的是firewall，与之前的版本使用iptables不一样。按如下方便配置防火墙：
+#### 2 CentOS7这个版本的防火墙默认使用的是firewall，与之前的版本使用iptables不一样。按如下方便配置防火墙：
 　　1、关闭防火墙：systemctl stop firewalld.service
 　　2、关闭开机启动：systemctl disable firewalld.service
 　　　　查看是否开机启动：systemctl is-enabled firewalld.service
